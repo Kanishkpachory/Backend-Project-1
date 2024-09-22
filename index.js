@@ -1,5 +1,5 @@
 const { createServer } = require('node:http');
-const fs = require('fs');
+const fs = require('fs').promises; // Using promises for fs
 const path = require('path');
 
 const hostname = '127.0.0.1';
@@ -20,11 +20,16 @@ server.listen(port, hostname, () => {
 // Define the path for the file
 const filePath = path.join(__dirname, 'hey.txt');
 
-// Write content to a file
-fs.writeFile(filePath, 'say hello to the file', (err) => {
-  if (err) {
-    console.error('Error writing to file:', err);
-  } else {
+// Check if directory exists and write content to a file
+(async () => {
+  try {
+    // Ensure the directory exists
+    await fs.mkdir(path.dirname(filePath), { recursive: true });
+    
+    // Write the file
+    await fs.writeFile(filePath, 'say hello to the file');
     console.log('File written successfully');
+  } catch (err) {
+    console.error('Error writing to file:', err);
   }
-});
+})();
