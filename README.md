@@ -1,67 +1,162 @@
+# Backend-Project-1
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
+![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
+![GitHub forks](https://img.shields.io/github/forks/Kanishkpachory/Backend-Project-1)
+![GitHub issues](https://img.shields.io/github/issues/Kanishkpachory/Backend-Project-1)
+![GitHub license](https://img.shields.io/github/license/Kanishkpachory/Backend-Project-1)
+
+A backend project deployed on Vercel. This project showcases various backend functionalities using Node.js and Express, with EJS templates for frontend rendering.
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About the Project
+
+Backend-Project-1 is a web application project focusing on backend development using Node.js, Express, and EJS. The project includes basic file handling and rendering functionalities.
+
+### Key Features
+- File handling using Node.js.
+- EJS templates for rendering dynamic pages.
+- Deployment on Vercel.
+  
+Visit the deployed version [here](https://backend-project-1.vercel.app).
+
+## Deployment
+
+This project is deployed using Vercel. Deployment history is available in the [deployments section](#).
+
+## Project Structure
+
+# Backend-Project-1
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
+![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
+![GitHub forks](https://img.shields.io/github/forks/Kanishkpachory/Backend-Project-1)
+![GitHub issues](https://img.shields.io/github/issues/Kanishkpachory/Backend-Project-1)
+![GitHub license](https://img.shields.io/github/license/Kanishkpachory/Backend-Project-1)
+
+A backend project deployed on Vercel. This project showcases various backend functionalities using Node.js and Express, with EJS templates for frontend rendering.
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About the Project
+
+Backend-Project-1 is a web application project focusing on backend development using Node.js, Express, and EJS. The project includes basic file handling and rendering functionalities.
+
+### Key Features
+- File handling using Node.js.
+- EJS templates for rendering dynamic pages.
+- Deployment on Vercel.
+  
+Visit the deployed version [here](https://backend-project-1.vercel.app).
+
+## Deployment
+
+This project is deployed using Vercel. Deployment history is available in the [deployments section](#).
+
+## Project Structure
+
+Backend-Project-1/ ├── docs/ # Documentation files (if any) ├── views/ # EJS templates │ ├── index.ejs │ ├── edit.ejs │ └── show.ejs ├── public/ │ ├── style.css # CSS file │ ├── script.js # JavaScript file │ ├── script1.js │ └── script2.js ├── index.js # Main backend file ├── package.json # Project dependencies ├── package-lock.json # Lock file for project dependencies └── README.md # Project documentation
+
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have Node.js and npm installed on your system.
+
+- **Node.js**: Download and install from [Node.js official website](https://nodejs.org/).
+- **npm**: Comes with Node.js installation.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Kanishkpachory/Backend-Project-1.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Backend-Project-1
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Run the application:
+
+    ```bash
+    node index.js
+    ```
+
+2. Open your browser and navigate to `http://localhost:3000` to view the app.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add your feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+**Kanishk Pachory** - [kanishkpachory@gmail.com](mailto:kanishkpachory@gmail.com)
+
+Project Link: [Backend-Project-1](https://github.com/Kanishkpachory/Backend-Project-1)
+
+
 #!/bin/bash
 
-# Project Structure
-echo "
-Backend-Project-1/
-├── README.md                # Project documentation
-├── index.js                 # Main server file
-├── package.json             # Project dependencies and scripts
-├── package-lock.json        # Dependency tree
-├── style.css                # CSS file for frontend styling
-├── edit.ejs                 # EJS template for editing
-├── index.ejs                # Main EJS template
-├── show.ejs                 # EJS template for displaying data
-├── script.js                # Client-side JavaScript
-├── script1.js               # Additional client-side script
-├── script2.js               # Additional client-side script
-├── daksh.txt                # Sample text file
-├── imnew.txt                # Sample text file
-├── kanishk.txt              # Sample text file
-├── lifeisgreat.txt          # Sample text file
-├── now i dont have          # Sample text file
-├── tupagalh.txt             # Sample text file
-"
+# File: generate-readme.sh
 
-# Getting Started
-echo "## Getting Started"
-echo "Follow the instructions below to set up and run the project locally."
+# Remove existing README.md
+rm -f README.md
 
-# Installation
-echo "## Installation"
-echo "1. **Clone the repository:**"
-echo '   ```bash'
-echo '   git clone https://github.com/Kanishkpachory/Backend-Project-1.git'
-echo '   ```'
-echo "2. **Navigate to the project directory:**"
-echo '   ```bash'
-echo '   cd Backend-Project-1'
-echo '   ```'
-echo "3. **Install the dependencies:**"
-echo '   ```bash'
-echo '   npm install'
-echo '   ```'
+# Create a new README.md file with the given content
+cat <<EOL > README.md
+# Backend-Project-1
 
-# Usage
-echo "## Usage"
-echo "1. **Start the server:**"
-echo '   ```bash'
-echo '   npm start'
-echo '   ```'
-echo "2. **Access the application:**"
-echo '   Open your browser and go to `http://localhost:3000`.'
+![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
+![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
+![GitHub forks](https://img.shields.io/github/forks/Kanishkpachory/Backend-Project-1)
+![GitHub issues](https://img.shields.io/github/issues/Kanishkpachory/Backend-Project-1)
+![GitHub license](https://img.shields.io/github/license/Kanishkpachory/Backend-Project-1)
 
-# Deployment
-echo "## Deployment"
-echo "The project is deployed on Vercel. You can access the live version [here](https://backend-project-1.vercel.app)."
-
-# License
-echo "## License"
-echo "This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details."
-
-# Contributing
-echo "## Contributing"
-echo "Contributions are welcome! Please create an issue or submit a pull request for any improvements or suggestions."
-
-# Contact
-echo "## Contact"
-echo "For any questions or feedback, please reach out to [kanishkpachory](https://github.com/Kanishkpachory)."
+A backend project deployed on Vercel. This project showcases various backend functionalities using Node.js and Express, with EJS templates for frontend rendering.
