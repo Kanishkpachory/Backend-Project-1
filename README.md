@@ -38,46 +38,6 @@ This project is deployed using Vercel. Deployment history is available in the [d
 
 ## Project Structure
 
-# Backend-Project-1
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
-![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
-![GitHub forks](https://img.shields.io/github/forks/Kanishkpachory/Backend-Project-1)
-![GitHub issues](https://img.shields.io/github/issues/Kanishkpachory/Backend-Project-1)
-![GitHub license](https://img.shields.io/github/license/Kanishkpachory/Backend-Project-1)
-
-A backend project deployed on Vercel. This project showcases various backend functionalities using Node.js and Express, with EJS templates for frontend rendering.
-
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Deployment](#deployment)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## About the Project
-
-Backend-Project-1 is a web application project focusing on backend development using Node.js, Express, and EJS. The project includes basic file handling and rendering functionalities.
-
-### Key Features
-- File handling using Node.js.
-- EJS templates for rendering dynamic pages.
-- Deployment on Vercel.
-  
-Visit the deployed version [here](https://backend-project-1.vercel.app).
-
-## Deployment
-
-This project is deployed using Vercel. Deployment history is available in the [deployments section](#).
-
-## Project Structure
-
 Backend-Project-1/ ├── docs/ # Documentation files (if any) ├── views/ # EJS templates │ ├── index.ejs │ ├── edit.ejs │ └── show.ejs ├── public/ │ ├── style.css # CSS file │ ├── script.js # JavaScript file │ ├── script1.js │ └── script2.js ├── index.js # Main backend file ├── package.json # Project dependencies ├── package-lock.json # Lock file for project dependencies └── README.md # Project documentation
 
 
@@ -143,20 +103,3 @@ Project Link: [Backend-Project-1](https://github.com/Kanishkpachory/Backend-Proj
 
 
 #!/bin/bash
-
-# File: generate-readme.sh
-
-# Remove existing README.md
-rm -f README.md
-
-# Create a new README.md file with the given content
-cat <<EOL > README.md
-# Backend-Project-1
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
-![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
-![GitHub forks](https://img.shields.io/github/forks/Kanishkpachory/Backend-Project-1)
-![GitHub issues](https://img.shields.io/github/issues/Kanishkpachory/Backend-Project-1)
-![GitHub license](https://img.shields.io/github/license/Kanishkpachory/Backend-Project-1)
-
-A backend project deployed on Vercel. This project showcases various backend functionalities using Node.js and Express, with EJS templates for frontend rendering.
