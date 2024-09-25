@@ -1,4 +1,4 @@
-# Backend-Project-1
+# Backend-Project
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kanishkpachory/Backend-Project-1)
 ![GitHub stars](https://img.shields.io/github/stars/Kanishkpachory/Backend-Project-1)
